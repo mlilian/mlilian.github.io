@@ -1,162 +1,161 @@
-<!DOCTYPE html
-PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lilian Matthiesen</title>
+      <style type="text/css">
+        @media screen and (min-width: 32em) {
+            header {
+                position: relative;
+            }
+            header:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            div.name {
+                float: left
+            }
+            header img {
+                float: right;
+                margin-bottom: 1em;
+            }
+            div.address{
+                position: absolute;
+                bottom: 0;
+            }
+        }
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title>Lilian Matthiesen</title>
-	<style type="text/css">
-		body {
-			margin-top:  8%;
-			margin-left:  8%; 
-			margin-right: 8%;
-			font-family:sans-serif;
-			background-color : #FFFFFF; 
-			color: #404040;
-		}
+	body {
+	    font-family:sans-serif;
+	    background-color : #FFFFFF; 
+	    color: #404040;
+	    margin: 8%;
+            line-height: 1.5em;
+	}
+        
+        li::marker {
+            content: "[" counter(list-item, decimal) "] ";
+        }
+        
+        li {
+            margin-bottom: 0.8em;
+        }
+        
+	a {
+	    color: #404040;
+	}
 
-		a {
-			color: #404040;
-		}
+	hr.line {
+	    border-style: solid;
+	}
+        
+        header h2 {margin-top: 0;}
 
-		h1,h2,h3 {
-			margin-left: 0%;
-		}
-
-		hr.line {
-			border-style: solid;
-			color: #555555;
-		}
-
-		div.par {
-			margin-bottom: 2em;
-		}
-
-		div.bottom{
-			position: absolute;
-			bottom: 0;
-		}
-		div.top {}
-		div.head {position: relative;}
-		div.left {}
-		div.right { float: right;}
-		div.head:after {
-			content: '';
-			display: block;
-			height: 0;
-			clear: both;
-			visibility: hidden;
-		}
-		div#publications{
-			margin-bottom: 2em;
-		}
-		p#small {
-			font-size: small;
-		}
-	</style>
-
+	main {
+	    margin-bottom: 2em;
+	}
+	footer {
+	    font-size: small;
+	}
+      </style>
 </head>
-<body>
-<div class="head">
 
-<div class="right">
-<img src="lilian.jpg" width="175" height="250" alt="photo" />
-</div>
+<body>    
+<header>
 
-<div class="left">
-
-<div class="top">
+<div class="name">
 <h2>Lilian Matthiesen</h2>
-<b> Assistant professor</b>
+<p><b>Assistant professor</b></p>
 </div>
 
-<div class="bottom">
+<img src="index_files/lilian.jpg" alt="photo" width="175" height="250">
+
+<div class="address">
 <p>
-KTH<br />
-Department of Mathematics<br />
-Lindstedtsv&auml;gen 25<br />
-100 44 Stockholm<br />
+KTH<br>
+Department of Mathematics<br>
+Lindstedtsvägen 25<br>
+100 44 Stockholm<br>
 Sweden</p>
 </div>
 
-</div>
+</header>
 
-</div>
-<hr style="clear:both;" class="line" />
+<hr class="line">
 
 <p> My research interests lie in the area of combinatorial and analytic number theory. </p>
 
-<div id="publications">
+<main>
 <h3>Preprints and papers</h3>
 
-<table cellpadding="0" cellspacing="10" width="100%">
-  <tbody align="left" valign="top">
-  <tr>
-    <td>[11]</td> <td> Frobenian multiplicative functions and rational points in fibrations (with D. Loughran). Submitted.
+<ol reversed>
+  <li>
+    Frobenian multiplicative functions and rational points in fibrations (with D. Loughran).
+    Submitted.
     <a href="https://arxiv.org/abs/1904.12845">arXiv</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>[10]</td> <td> Linear correlations of multiplicative functions. Submitted.
+  </li>
+  <li>
+    Linear correlations of multiplicative functions. Submitted.
     <a href="http://arxiv.org/abs/1606.04482">arXiv</a>.
-    </td>
-  </tr>
-  <tr>
-    <td>[9]</td> <td> A consequence of the factorisation theorem for polynomial orbits on nilmanifolds. (Corrigendum to Acta Arith. 154 (2012), 235-306.)
+  </li>
+  <li>
+    A consequence of the factorisation theorem for polynomial orbits on nilmanifolds.
+    (Corrigendum to Acta Arith. 154 (2012), 235-306.)
     <a href="http://arxiv.org/abs/1509.06030">arXiv</a> 
-    <a href="factorisation.pdf">pdf</a> </td>
-  </tr>
-  <tr> 
-    <td>[8]</td> <td> On the square-free representation function of a norm form and nilsequences.
+    <a href="http://www.lilianmatthiesen.com/factorisation.pdf">pdf</a>
+  </li>
+  <li>
+    On the square-free representation function of a norm form and nilsequences.
     <i>J. Inst. Math. Jussieu</i> <b>17</b> (2018), 107-135.
-    <a href="http://arxiv.org/abs/1409.5028">arXiv</a> </td>
-  </tr>
-  <tr> 
-    <td>[7]</td> <td> Generalized Fourier coefficients of multiplicative functions.
+    <a href="http://arxiv.org/abs/1409.5028">arXiv</a>
+  </li>
+  <li> 
+    Generalized Fourier coefficients of multiplicative functions.
     <i>Algebra Number Theory</i> <b>12</b> (2018), 1311-1400.
-    <a href="http://arxiv.org/abs/1405.1018">arXiv</a> </td>
-  </tr>
-  <tr> 
-    <td>[6]</td> <td> Norm forms for arbitrary number fields as products of linear polynomials
-       (with T. Browning).
+    <a href="http://arxiv.org/abs/1405.1018">arXiv</a>
+  </li>
+  <li> 
+    Norm forms for arbitrary number fields as products of linear polynomials (with T. Browning).
     <i>Ann. Sci. Ecole Norm. Sup.</i> <b>50</b> (2017), 1375-1438.   
-    <a href="http://arxiv.org/abs/1307.7641">arXiv</a> </td>
-  </tr>
-  <tr>
-    <td>[5]</td> <td> Rational points on pencils of conics and quadrics with many degenerate fibres
-       (with T. Browning and A. Skorobogatov).
-      <i>Annals of Math.</i> <b>180</b> (2014), 381-402.
-      <a href="http://arxiv.org/abs/1209.0207">arXiv</a> </td>
-  </tr>
-  <tr> 
-    <td>[4]</td> <td> Correlations of representation functions of binary quadratic forms,
-      <i>Acta Arith.</i> <b>158</b> (2013), 245-252.
-      <a href="http://arxiv.org/abs/1205.4145">arXiv</a> </td>
-  </tr>
-  <tr> 
-    <td>[3]</td> <td> Linear correlations amongst numbers represented by positive definite binary quadratic forms, 
-      <i>Acta Arith.</i> <b>154</b> (2012), 235-306.
-      <a href="http://arxiv.org/abs/1106.4690">arXiv</a> </td>
-  </tr>
-  <tr> 
-    <td>[2]</td> <td> Correlations of the divisor function, 
-      <i>Proc. London Math. Soc.</i> <b>104</b> (2012), 827-858.
-      <a href="http://arxiv.org/abs/1011.0019">arXiv</a>* </td>
-  </tr>
-  <tr> 
-    <td>[1]</td> <td> There are uncountably many topological types of locally finite trees, 
-      <i>J. Comb. Theory, Ser. B</i> <b>96</b> (2006), 758-760. 
-      <a href="trees.pdf">pdf</a> </td>
-  </tr>
-  </tbody>
-</table>
+    <a href="http://arxiv.org/abs/1307.7641">arXiv</a>
+  </li>
+  <li>
+    Rational points on pencils of conics and quadrics with many degenerate fibres (with T. Browning and A. Skorobogatov).
+    <i>Annals of Math.</i> <b>180</b> (2014), 381-402.
+    <a href="http://arxiv.org/abs/1209.0207">arXiv</a>
+  </li>
+  <li> 
+    Correlations of representation functions of binary quadratic forms,
+    <i>Acta Arith.</i> <b>158</b> (2013), 245-252.
+    <a href="http://arxiv.org/abs/1205.4145">arXiv</a>
+  </li>
+  <li> 
+    Linear correlations amongst numbers represented by positive definite binary quadratic forms, 
+    <i>Acta Arith.</i> <b>154</b> (2012), 235-306.
+    <a href="http://arxiv.org/abs/1106.4690">arXiv</a>
+  </li>
+  <li>
+    Correlations of the divisor function, 
+    <i>Proc. London Math. Soc.</i> <b>104</b> (2012), 827-858.
+    <a href="http://arxiv.org/abs/1011.0019">arXiv</a>*
+  </li>
+  <li>
+    There are uncountably many topological types of locally finite trees, 
+    <i>J. Comb. Theory, Ser. B</i> <b>96</b> (2006), 758-760. 
+    <a href="http://www.lilianmatthiesen.com/trees.pdf">pdf</a>
+  </li>
+</ol>
 *differs from the published version.
 
-</div>
+</main>
 
-<hr class="line" />
-<p id="small">
+<hr class="line">
+
+<footer>
 <b>email:</b> lilian.matthiesen at math. kth. se
-</p>
+</footer>
+
 </body>
 </html>
